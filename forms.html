@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Hot beans website</title>
+</head>
+
+<body>
+    <nav>
+        <img src="coffee.jpg" class="nav-logo" alt="Picture of company logo">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="about.html" class="nav-button">About Us</a>
+        <a href="profiles.html" class="nav-button">Employee Profiles</a>
+        <a href="forms.html" class="nav-button">Forms</a>
+        <a href="resources.html" class="nav-button">Resources</a>
+    </nav>
+
+    <hr>
+
+    <div class="card-header">
+        <h1>Form</h1>
+    </div>
+
+    <div class="form-card">
+            <form method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter Your Full Name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" id=input placeholder="Enter your main email">
+
+        <label for="phonenumber">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your personal phone number">
+
+        <label for="role">Job Role</label>
+        <select id="role">
+            <option value="">---Select a role---</option>
+            <option value="Web Developer">Web Developer</option>
+            <option value="Front-end">Front-End Developer</option>
+            <option value="Back-end">Back-End Developer</option>
+            <option value="Full-stack">Full-Stack Developer</option>
+        </select>
+
+        <textarea placeholder="This is the cover letter" id="area"></textarea>
+
+        <button type="submit" class="apply" onclick="validateform()">Apply Now</button>
+
+    </form>
+    </div>
+
+    <script src="forms.js"></script>
+
+    <hr>
+    
+    <footer>
+    <a href="" target="_blank">
+        <img src="assets/instagram.png" alt="instagram" class="logo-social">
+    </a>
+
+    <a href="" target="_blank">
+        <img src="assets/twitter.png" alt="twitter" class="logo-social">
+    </a>
+
+    
+    </footer>
+</body>
+
+</html>

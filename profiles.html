@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Hot beans website</title>
+</head>
+
+<body>
+    <nav>
+        <img src="coffee.jpg" class="nav-logo" alt="Picture of company logo">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="about.html" class="nav-button">About Us</a>
+        <a href="profiles.html" class="nav-button">Employee Profiles</a>
+        <a href="forms.html" class="nav-button">Forms</a>
+        <a href="resources.html" class="nav-button">Resources</a>
+    </nav>
+
+    <hr>
+
+    <div class="card-header">
+        <h1>Profiles</h1>
+    </div>
+
+        <div class="employee-container">
+        <div class="profile" data-id="janet">
+            <image src="assets/JanetSmith.png" class="profile-image"></image>
+            <div class="profile-header">Janet Smith</div>
+        </div>
+        <div class="profile" data-id="david">
+            <image src="assets/DavidJackson.png" class="profile-image"></image>
+            <div class="profile-header">David Jackson</div>
+        </div>
+        <div class="profile" data-id="josh">
+            <image src="assets/JoshFrancis.jpg" class="profile-image"></image>
+            <div class="profile-header">Josh Francis</div>
+        </div>
+        <div class="profile" data-id="denin">
+            <image src="assets/DeninHeir.JPG" class="profile-image"></image>
+            <div class="profile-header">Denin Heir</div>
+        </div>
+        <div class="profile-center" data-id="finley">
+            <image src="assets/FinleyPatterson.png" class="profile-image"></image>
+            <div class="profile-header">Finley Patterson</div>
+        </div>
+
+        </div>
+    </div>
+
+    <hr>
+    
+    <footer>
+    <a href="" target="_blank">
+        <img src="assets/instagram.png" alt="instagram" class="logo-social">
+    </a>
+
+    <a href="" target="_blank">
+        <img src="assets/twitter.png" alt="twitter" class="logo-social">
+    </a>
+
+    
+    </footer>
+    <div class="overlay" id="overlay"></div>
+    <div class="slide-panel" id="slidePanel">
+        <button class="panel-close" id="panelClose" aria-label="Close panel">✕</button>
+        <div class="panel-content" id="panelContent"></div>
+    </div>
+    <script src="profiles.js"></script>
+</body>
+
+</html>
