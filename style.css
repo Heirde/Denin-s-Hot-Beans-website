@@ -19,7 +19,6 @@ nav{
 .card-header{
     display: flex;
     justify-content: center;
-    transition: 0.6s;
 }
 
 h1{
@@ -34,6 +33,7 @@ h1{
 
 .video-container{
     position: relative;
+    background-color: var(--bg);
 }
 
 video{
