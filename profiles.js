@@ -5,7 +5,7 @@ const panelClose = document.getElementById("panelClose");
 
 const profileData = {
     janet: `
-        <img src="assets/JanetSmith.png" alt="Janet Smith" class="panel-image">
+        <img src="assets/JanetSmith.png" alt="Janet Smith" class="panel-image" loading="lazy">
         <h2>Janet Smith</h2>
         <h3>Role</h3>
         <p>Lead Full Stack Developer</p>
@@ -15,7 +15,7 @@ const profileData = {
         ensures best practices across all projects.</p>
     `,
     david: `
-        <img src="assets/DavidJackson.png" alt="David Jackson" class="panel-image">
+        <img src="assets/DavidJackson.png" alt="David Jackson" class="panel-image" loading="lazy">
         <h2>David Jackson</h2>
         <h3>Role</h3>
         <p>Frontend Web Developer</p>
@@ -24,7 +24,7 @@ const profileData = {
         experience and accessibility, transforming design mockups into interactive web applications that users love.</p>
     `,
     josh: `
-        <img src="assets/JoshFrancis.jpg" alt="Josh Francis" class="panel-image">
+        <img src="assets/JoshFrancis.jpg" alt="Josh Francis" class="panel-image" loading="lazy">
         <h2>Josh Francis</h2>
         <h3>Role</h3>
         <p>Backend Web Developer</p>
@@ -33,7 +33,7 @@ const profileData = {
         database design, optimization, and creating efficient backend systems that handle millions of requests reliably.</p>
     `,
     denin: `
-        <img src="assets/DeninHeir.JPG" alt="Denin Heir" class="panel-image">
+        <img src="assets/DeninHeir.JPG" alt="Denin Heir" class="panel-image" loading="lazy">
         <h2>Denin Heir</h2>
         <h3>Role</h3>
         <p>Web Developer</p>
@@ -42,7 +42,7 @@ const profileData = {
         and continuously improves our codebase. His passion for clean code and problem-solving makes him an invaluable team member.</p>
     `,
     finley: `
-        <img src="assets/FinleyPatterson.png" alt="Finley Patterson" class="panel-image">
+        <img src="assets/FinleyPatterson.png" alt="Finley Patterson" class="panel-image" loading="lazy">
         <h2>Finley Patterson</h2>
         <h3>Role</h3>
         <p>DevOps & Web Developer</p>
