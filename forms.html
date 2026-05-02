@@ -12,8 +12,8 @@
         <a href="index.html" class="nav-button">Home</a>
         <a href="about.html" class="nav-button">About Us</a>
         <a href="profiles.html" class="nav-button">Employee Profiles</a>
-        <a href="forms.html" class="nav-button">Forms</a>
-        <a href="resources.html" class="nav-button">Resources</a>
+        <a href="forms.html" class="nav-button-active">Forms</a>
+        <a href="resources.html" class="nav-button">Courses</a>
     </nav>
 
     <hr>
@@ -28,9 +28,9 @@
         <input type="text" id="name" placeholder="Enter Your Full Name">
 
         <label for="email">Email</label>
-        <input type="email" id="email" id=input placeholder="Enter your main email">
+        <input type="email" id="email" placeholder="Enter your main email">
 
-        <label for="phonenumber">Phone Number</label>
+        <label for="phone">Phone Number</label>
         <input type="tel" id="phone" placeholder="Enter your personal phone number">
 
         <label for="role">Job Role</label>
@@ -42,13 +42,14 @@
             <option value="Full-stack">Full-Stack Developer</option>
         </select>
 
-        <textarea placeholder="This is the cover letter" id="area"></textarea>
+        <textarea placeholder="This is the cover letter" id="message"></textarea>
 
-        <button type="submit" class="apply" onclick="validateform()">Apply Now</button>
+        <button type="button" class="apply" onclick="validateform(event)">Apply Now</button>
 
     </form>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="forms.js"></script>
 
     <hr>

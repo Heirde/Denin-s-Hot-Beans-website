@@ -3,6 +3,11 @@ body{
     padding: 20px;
 }
 
+@media (max-width: 768px) {
+nav{
+    display: none !important;
+}}
+
 :root{
     --bg: #3C1518;
     --secondarybg: #69140E;
@@ -96,7 +101,18 @@ nav a{
     transition: transform ease 0.6s;
 }
 
+.nav-button-active{
+    text-decoration: underline;
+    will-change: transform;
+    transition: transform ease 0.6s;
+}
+
 .nav-button:hover{
+    transform: scale(1.03);
+    text-shadow: 0 0 20px var(--accent);
+}
+
+.nav-button-active:hover{
     transform: scale(1.03);
     text-shadow: 0 0 20px var(--accent);
 }
