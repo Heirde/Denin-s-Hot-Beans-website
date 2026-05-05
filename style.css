@@ -460,3 +460,17 @@ select{
     transform: scale(1.03);
     transition: ease 0.6s;
 }
+
+.card-qualifications{
+    margin-top: 5px;
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    transition: 0.6s ease;
+    justify-content: left;
+    color: var(--text);
+    font-size: 20px;
+    font-family: sans-serif;
+}

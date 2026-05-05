@@ -27,28 +27,25 @@ const profileData = {
         <img src="assets/JoshFrancis.jpg" alt="Josh Francis" class="panel-image" loading="lazy">
         <h2>Josh Francis</h2>
         <h3>Role</h3>
-        <p>Backend Web Developer</p>
+        <p>Trainee</p>
         <h3>Bio</h3>
-        <p>Josh builds robust server-side applications and APIs that power our web services. He specializes in 
-        database design, optimization, and creating efficient backend systems that handle millions of requests reliably.</p>
+        <p>Josh is a trainee focused on learning backend web development. He is building skills in server-side applications, APIs, database design, and optimization through hands-on training and mentorship from experienced developers.</p>
     `,
     denin: `
         <img src="assets/DeninHeir.JPG" alt="Denin Heir" class="panel-image" loading="lazy">
         <h2>Denin Heir</h2>
         <h3>Role</h3>
-        <p>Web Developer</p>
+        <p>Trainee</p>
         <h3>Bio</h3>
-        <p>Denin is a versatile web developer who works across the full stack. He develops features, fixes bugs, 
-        and continuously improves our codebase. His passion for clean code and problem-solving makes him an invaluable team member.</p>
+        <p>Denin is a trainee developing skills across the full web development stack. He is learning to develop features, fix bugs, and improve code quality through practical training and guidance from the development team.</p>
     `,
     finley: `
         <img src="assets/FinleyPatterson.png" alt="Finley Patterson" class="panel-image" loading="lazy">
         <h2>Finley Patterson</h2>
         <h3>Role</h3>
-        <p>DevOps & Web Developer</p>
+        <p>Trainee</p>
         <h3>Bio</h3>
-        <p>Finley manages our deployment pipelines and infrastructure while also contributing to web development. 
-        He ensures our applications run smoothly in production and collaborates with the team to optimize performance and reliability.</p>
+        <p>Finley is a dedicated trainee gaining hands-on experience in DevOps and web development. He is learning to manage deployment pipelines, infrastructure, and contribute to web development projects under the guidance of senior team members.</p>
     `
 };
 
